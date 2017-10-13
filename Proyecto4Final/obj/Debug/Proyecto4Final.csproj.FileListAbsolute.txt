@@ -1,0 +1,6 @@
+C:\Users\Labtronic\documents\visual studio 2013\Projects\Proyecto4Final\Proyecto4Final\bin\Proyecto4Final.dll.config
+C:\Users\Labtronic\documents\visual studio 2013\Projects\Proyecto4Final\Proyecto4Final\bin\Proyecto4Final.dll
+C:\Users\Labtronic\documents\visual studio 2013\Projects\Proyecto4Final\Proyecto4Final\bin\Proyecto4Final.pdb
+C:\Users\Labtronic\documents\visual studio 2013\Projects\Proyecto4Final\Proyecto4Final\obj\Debug\Proyecto4Final.csprojResolveAssemblyReference.cache
+C:\Users\Labtronic\documents\visual studio 2013\Projects\Proyecto4Final\Proyecto4Final\obj\Debug\Proyecto4Final.dll
+C:\Users\Labtronic\documents\visual studio 2013\Projects\Proyecto4Final\Proyecto4Final\obj\Debug\Proyecto4Final.pdb

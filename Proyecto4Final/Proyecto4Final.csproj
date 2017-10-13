@@ -1,0 +1,271 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{3789FAA2-EED3-4EF4-BB34-3BA49B7D4D86}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Proyecto4Final</RootNamespace>
+    <AssemblyName>Proyecto4Final</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="css\products.css" />
+    <Content Include="css\bootstrap.css" />
+    <Content Include="css\Home1.css" />
+    <Content Include="css\Site.css" />
+    <Content Include="paginas\products\electrodom.aspx" />
+    <Content Include="paginas\products\herramientas.aspx" />
+    <Content Include="paginas\products\jardin.aspx" />
+    <Content Include="paginas\products\juguetes.aspx" />
+    <Content Include="paginas\products\libreria.aspx" />
+    <Content Include="paginas\products\limpieza.aspx" />
+    <Content Include="paginas\products\tech.aspx" />
+    <Content Include="paginas\products\vehiculos.aspx" />
+    <Content Include="paginas\products\ropa.aspx" />
+    <Content Include="Street.aspx" />
+    <Content Include="HomeDW.aspx" />
+    <Content Include="imagenes\appmovil.png" />
+    <Content Include="imagenes\contacto.png" />
+    <Content Include="imagenes\contacto2.png" />
+    <Content Include="imagenes\demo\100x100.gif" />
+    <Content Include="imagenes\demo\100x75.gif" />
+    <Content Include="imagenes\demo\240x90.gif" />
+    <Content Include="imagenes\demo\290x100.gif" />
+    <Content Include="imagenes\demo\468x60.gif" />
+    <Content Include="imagenes\demo\60x60.gif" />
+    <Content Include="imagenes\demo\80x80.gif" />
+    <Content Include="imagenes\demo\avatar.gif" />
+    <Content Include="imagenes\demo\imgl.gif" />
+    <Content Include="imagenes\demo\imgr.gif" />
+    <Content Include="imagenes\demo\index.html" />
+    <Content Include="imagenes\fondohome.jpg" />
+    <Content Include="imagenes\formapago.png" />
+    <Content Include="imagenes\formapago1.png" />
+    <Content Include="imagenes\formaspago.jpg" />
+    <Content Include="imagenes\HomeDW.html" />
+    <Content Include="imagenes\logo1.png" />
+    <Content Include="imagenes\ofertas.png" />
+    <Content Include="imagenes\ofertas2.png" />
+    <Content Include="imagenes\productos.png" />
+    <Content Include="imagenes\productos1.jpg" />
+    <Content Include="imagenes\productos2.png" />
+    <Content Include="imagenes\productos3.png" />
+    <Content Include="imagenes\quienes.png" />
+    <Content Include="paginas\clientes.aspx" />
+    <Content Include="paginas\inventario.aspx" />
+    <Content Include="paginas\metodospago.aspx" />
+    <Content Include="paginas\tiendaPOS.aspx" />
+    <Content Include="scripts\HomeDW.html" />
+    <Content Include="scripts\jquery.easing.1.3.js" />
+    <Content Include="scripts\jquery.hslides.1.0.js" />
+    <Content Include="scripts\jquery.min.js" />
+    <Content Include="css\featured_slide.css" />
+    <Content Include="css\forms.css" />
+    <Content Include="imagenes\black_file.gif" />
+    <Content Include="imagenes\blue_file.gif" />
+    <Content Include="css\HomeDW.html" />
+    <Content Include="css\principal.css" />
+    <Content Include="css\navi.css" />
+    <Content Include="css\compraprod.css" />
+    <Content Include="paginas\CreditosClase.html" />
+    <Content Include="paginas\HomeDW.html" />
+    <Content Include="paginas\estiloDemo.html" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="paginas\products\electrodom.aspx.cs">
+      <DependentUpon>electrodom.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="paginas\products\electrodom.aspx.designer.cs">
+      <DependentUpon>electrodom.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="paginas\products\herramientas.aspx.cs">
+      <DependentUpon>herramientas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="paginas\products\herramientas.aspx.designer.cs">
+      <DependentUpon>herramientas.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="paginas\products\jardin.aspx.cs">
+      <DependentUpon>jardin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="paginas\products\jardin.aspx.designer.cs">
+      <DependentUpon>jardin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="paginas\products\juguetes.aspx.cs">
+      <DependentUpon>juguetes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="paginas\products\juguetes.aspx.designer.cs">
+      <DependentUpon>juguetes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="paginas\products\libreria.aspx.cs">
+      <DependentUpon>libreria.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="paginas\products\libreria.aspx.designer.cs">
+      <DependentUpon>libreria.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="paginas\products\limpieza.aspx.cs">
+      <DependentUpon>limpieza.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="paginas\products\limpieza.aspx.designer.cs">
+      <DependentUpon>limpieza.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="paginas\products\tech.aspx.cs">
+      <DependentUpon>tech.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="paginas\products\tech.aspx.designer.cs">
+      <DependentUpon>tech.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="paginas\products\vehiculos.aspx.cs">
+      <DependentUpon>vehiculos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="paginas\products\vehiculos.aspx.designer.cs">
+      <DependentUpon>vehiculos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="paginas\products\ropa.aspx.cs">
+      <DependentUpon>ropa.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="paginas\products\ropa.aspx.designer.cs">
+      <DependentUpon>ropa.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Street.aspx.cs">
+      <DependentUpon>Street.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Street.aspx.designer.cs">
+      <DependentUpon>Street.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="HomeDW.aspx.cs">
+      <DependentUpon>HomeDW.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="HomeDW.aspx.designer.cs">
+      <DependentUpon>HomeDW.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="paginas\clientes.aspx.cs">
+      <DependentUpon>clientes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="paginas\clientes.aspx.designer.cs">
+      <DependentUpon>clientes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="paginas\inventario.aspx.cs">
+      <DependentUpon>inventario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="paginas\inventario.aspx.designer.cs">
+      <DependentUpon>inventario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="paginas\metodospago.aspx.cs">
+      <DependentUpon>metodospago.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="paginas\metodospago.aspx.designer.cs">
+      <DependentUpon>metodospago.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="paginas\tiendaPOS.aspx.cs">
+      <DependentUpon>tiendaPOS.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="paginas\tiendaPOS.aspx.designer.cs">
+      <DependentUpon>tiendaPOS.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>51013</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:51013/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
