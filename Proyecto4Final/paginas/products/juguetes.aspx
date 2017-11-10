@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="juguetes.aspx.cs" Inherits="Proyecto4Final.paginas.products.juguetes" %>
+<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="juguetes.aspx.cs" Inherits="Proyecto4Final.paginas.products.juguetes" %>
 
 <!DOCTYPE html>
 
@@ -75,48 +75,53 @@
 <div id="container">
   <div class="wrapper">
 
-      <h1>TIENDA ONLINE</h1>
+      <h1><center>CATEGORIA</center></h1>
 
      <div class="intro">
-    <h2><center>VEHICULOS</center></h2>
-     <p><center><img class="img" src="/imagenes/vehiculos2.png" width="175" height="175"/></center></p>
-    <p><a href="#">Ver productos</a></p>
+    <h2>Producto</h2>
+     <p><center><img class="img" src="/imagenes/demo/100x100.gif" width="100" height="100"/></center></p>
+         <p>Caracter�sticas:</p>
+         <li>****</li>
+         <li>****</li>
+         <li>****</li>
+         <p>Precio: Q0.00</p>
+    <p><a href="#">Comprar!</a></p> 
   </div>
      <!-- <div class="separator"></div>-->
       
   <!-- <div class="separator"></div>-->
   <div class="intro2">
-    <h2><center>LIMPIEZA</center></h2>
-    <p><center><img class="img" src="/imagenes/limpieza.png" width="175" height="175"/></center></p>
+    <h2>Producto</h2>
+    <p><center><img class="img" src="/imagenes/demo/100x100.gif" width="100" height="100"/></center></p>
       <p><a href="#">Ver productos</a></p>
   </div>
   <!-- <div class="separator"></div>-->
       
   <div class="intro3">
-    <h2><center>JARDÍN</center></h2>
-    <p><center><img class="img" src="/imagenes/jardin.png"  width="175" height="175"/></center></p>
+    <h2>Producto</h2>
+    <p><center><img class="img" src="/imagenes/demo/100x100.gif" width="100" height="100"/></center></p>
       <p><a href="#">Ver productos</a></p>
   </div>
           <br /><br /> <br /><br /> <br /><br /> <br /><br />
       <!-- SEGUNDA FILA-->
    <!-- <div class="separator"></div>-->
       <div class="intro">
-    <h2><center>HERRAMIENTAS</center></h2>
-   <p><center><img class="img" src="/imagenes/herramientas.png"  width="175" height="175"/></center></p>
+    <h2>Producto</h2>
+   <p><center><img class="img" src="/imagenes/demo/100x100.gif" width="100" height="100"</center></p>
     <p><a href="#">Ver productos</a></p>
   </div>
       
   <!-- <div class="separator"></div>-->
   <div class="intro2">
-    <h2><center>TECNOLOGÍA</center></h2>
-    <p><center><img class="img" src="/imagenes/tecnologia.png"  width="175" height="175"/></center></p>
+    <h2>Producto</h2>
+    <p><center><img class="img" src="/imagenes/demo/100x100.gif" width="100" height="100"/></center></p>
    <p><a href="#">Ver productos</a></p>
   </div>
   <!-- <div class="separator"></div>-->
       
   <div class="intro3">
-    <h2><center>ELECTRODOMÉSTICOS</center></h2>
-    <p><center><img class="img" src="/imagenes/electrodom.png"  width="175" height="175"/></center></p>
+    <h2>Producto</h2>
+    <p><center><img class="img" src="/imagenes/demo/100x100.gif" width="100" height="100"/></center></p>
    <p><a href="#">Ver productos</a></p>
   </div>
       <br /><br /> <br /><br /> <br /><br /> 
@@ -125,45 +130,36 @@
 
        <!-- TERCER FILA-->
       <div class="intro">
-    <h2><center>JUGUETES</center></h2>
-   <p><center><img class="img" src="/imagenes/juguetes.png"  width="175" height="175"/></center></p>
+    <h2>Producto></h2>
+   <p><center><img class="img" src="/imagenes/demo/100x100.gif" width="100" height="100"</center></p>
    <p><a href="#">Ver productos</a></p>
   </div>
      <!-- <div class="separator"></div>-->
       
   <!-- <div class="separator"></div>-->
   <div class="intro2">
-    <h2><center>LIBRERÍA</center></h2>
- <p><center><img class="img" src="/imagenes/libreria.png"  width="175" height="175"/></center></p>
+    <h2>Producto</h2>
+ <p><center><img class="img" src="/imagenes/demo/100x100.gif" width="100" height="100"/></center></p>
    <p><a href="#">Ver productos</a></p>
   </div>
   <!-- <div class="separator"></div>-->
       
   <div class="intro3">
-    <h2><center>ROPA Y ACCESORIOS</center></h2>
- <p><center><img class="img" src="/imagenes/ropa.png"  width="175" height="175"/></center></p>
+    <h2>Producto</h2>
+ <p><center><img class="img" src="/imagenes/demo/100x100.gif" width="100" height="100"/></center></p>
    <p><a href="#">Ver productos</a></p>
   </div>
       <br /><br /> <br /><br /> <br /><br /> 
        <!-- TERCER FILA-->
       <br /><br /> <br /><br /> <br /><br /> <br /><br /><br /><br /> <br /><br /> <br /><br /> <br /><br />
        <br /><br /> <br /><br /> <br /><br /> <br /><br /><br /> <br /><br /><br />
-    <p>Aquí puede encontrar una <a href="http://www.os-templates.com/" title="Free Website Templates">pirámide nutricional</a> para que siempre este en correcta nutrición.</p>
-    <p>Tambien puede encontrar una tabla de <a href="http://www.os-templates.com/template-terms">consumo de calorías</a> recomendado para mantenerse saludable.</p>
+    <p>Gracias por permitirnos servirle!.</p>
     <ul>
-      <li>Nuestros productos son de alta calidad y frescura.</li>
-      <li>Estamos en constante verificación de los empaques.</li>
-      <li>En el area de atención al cliente estamos dispuestos a ayudarle.</li>
-      <li>Mantenemos un control en la fecha de vencimiento de los productos.</li>
-      <li>Colaboramos con el medio ambiente.</li>
+      
     </ul>
-    <p>Tips para una vida mejor!.</p>
+    
     <ol>
-      <li>No gaste mas de lo necesario, en los tiburoncitos tenemos líneas de credito para ayudarle.</li>
-      <li>Cuide el agua, en los tiburoncitos tenemos tratamiento del agua que usamos.</li>
-      <li>Recicle la basura, puede encontrar depósitos de basura especiales en nuestras tiendas</li>
-      <li>Utilice efectivamente la energía eléctrica, contamos con sensores de ahorro en nuestras tiendas.</li>
-      <li>Sea amable con los demás, en los tiburoncitos estamos dispuestos a ayudarle siempre.</li>
+      
     </ol>
     <br />
               </div>
@@ -212,7 +208,7 @@
                     <li><a href="#">Twitter</a></li>
                     <li><a href="#">Instagram</a></li>
                     <li><a href="#">Whats App</a></li>
-                    <li class="last"><a href="#">App para móvil</a></li>
+                    <li class="last"><a href="#">App para m�vil</a></li>
                 </ul>
             </div>
             <br class="clear" />
@@ -221,7 +217,7 @@
 <!-- ####################################################################################################### -->
 <div id="copyright">
     <div class="wrapper">
-        <p class="fl_left">Versión Beta  - 14 de Octubre, 2017 - <a href="#">Desarrollo Web</a></p>
+        <p class="fl_left">Versi�n Beta  - 14 de Octubre, 2017 - <a href="#">Desarrollo Web</a></p>
         <p class="fl_right">&copy; Proyecto de clase: <a target="_blank" href="/paginas/CreditosClase.html" title="Desarrollo Web 2017">Ver creditos!</a></p>
         <br class="clear" />
     </div>

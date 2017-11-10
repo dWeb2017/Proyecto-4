@@ -31,7 +31,7 @@
         <li><a href="/paginas/tiendaPOS.aspx">Productos</a></li>
         <li><a href="/Street.aspx">Carrito de compras</a></li>
         <!--<li><a href="pages/full-width.html">Full Width</a></li>-->
-        <li class="last"><a href="/paginas/clientes.aspx">Area de Clientes!</a></li>
+        <li class="last"><a href="/paginas/clientesAut.aspx">Area de Clientes!</a></li>
         <li><a href="#">Acceso personal</a>
           <ul>
             <li><a href="#">Control</a></li> 

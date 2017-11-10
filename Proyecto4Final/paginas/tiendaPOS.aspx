@@ -32,9 +32,10 @@
         <li><a href="/paginas/tiendaPOS.aspx">Productos</a></li>
         <li><a href="/Street.aspx">Carrito de compras</a></li>
         <!--<li><a href="pages/full-width.html">Full Width</a></li>-->
-        <li class="last"><a href="/paginas/clientes.aspx">Area de Clientes!</a></li>
+        <li class="last"><a href="/paginas/clientesAut.aspx">Area de Clientes!</a></li>
         <li><a href="#">Acceso personal</a>
-          <ul>
+          
+            <ul>
             <li><a href="#">Control</a></li> 
             <li><a href="#">Reportes</a></li>
             <li><a href="#">Inventario</a></li>
@@ -88,7 +89,7 @@
   <div class="intro2">
     <h2><center>LIMPIEZA</center></h2>
     <p><center><img class="img" src="/imagenes/limpieza.png" width="175" height="175"/></center></p>
-      <p><a href="#">Ver productos</a></p>
+      <p><a href="/paginas/products/limpieza.aspx">Ver productos</a></p>
   </div>
   <!-- <div class="separator"></div>-->
       

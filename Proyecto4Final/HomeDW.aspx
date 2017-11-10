@@ -1,8 +1,11 @@
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<title>Internet Business</title>
+<title>Proyecto Final</title>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 <!--<link rel="stylesheet" href="layout/styles/layout.css" type="text/css" />
 
@@ -49,7 +52,7 @@ $((function () {
         <li><a href="/paginas/tiendaPOS.aspx">Productos</a></li>
         <li><a href="/Street.aspx">Carrito de compras</a></li>
         <!--<li><a href="pages/full-width.html">Full Width</a></li>-->
-        <li class="last"><a href="/paginas/clientes.aspx">Area de Clientes!</a></li>
+        <li class="last"><a href="/paginas/clientesAut.aspx">Area de Clientes!</a></li>
         <li><a href="#">Acceso personal</a>
           <ul>
             <li><a href="#">Control</a></li> 

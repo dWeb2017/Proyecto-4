@@ -32,7 +32,7 @@
         <li><a href="/paginas/tiendaPOS.aspx">Productos</a></li>
         <li><a href="/Street.aspx">Carrito de compras</a></li>
         <!--<li><a href="pages/full-width.html">Full Width</a></li>-->
-        <li class="last"><a href="/paginas/clientes.aspx">Area de Clientes!</a></li>
+        <li class="last"><a href="/paginas/clientesAut.aspx">Area de Clientes!</a></li>
         <li><a href="#">Acceso personal</a>
           <ul>
             <li><a href="#">Control</a></li> 
@@ -79,7 +79,7 @@
 
      <div class="intro">
     <h2>Llantas</h2>
-     <p><center><img class="img" src="/imagenes/demo/100x100.gif"/></center></p>
+     <p><center><img class="img" src="/imagenes/variosprod/Vehiculo/llantas.jpg" width="175" height="100"/></center></p>
          <p>Características:</p>
          <li>Hecha en alemania</li>
          <li>Garantía de 1 año</li>
@@ -91,70 +91,74 @@
       
   <!-- <div class="separator"></div>-->
   <div class="intro2">
-    <h2><center>LIMPIEZA</center></h2>
-    <p><center><img class="img" src="/imagenes/limpieza.png" width="175" height="175"/></center></p>
-      <p><a href="#">Ver productos</a></p>
+    <h2>Claxon</h2>
+    <p><center><img class="img" src="/imagenes/variosprod/Vehiculo/Claxon.jpg" width="90" height="100"/></center></p>
+      <p>Características:</p>
+         <li>Alimentacion de 12v</li>
+         <li>Fácil instalación </li>
+         <li>Tiempo de vida duradera</li>
+         <p>Precio: Q51.00</p>
+    <p><a href="#">Comprar!</a></p> 
   </div>
   <!-- <div class="separator"></div>-->
       
   <div class="intro3">
-    <h2><center>JARDÍN</center></h2>
-    <p><center><img class="img" src="/imagenes/jardin.png"  width="175" height="175"/></center></p>
-      <p><a href="#">Ver productos</a></p>
+    <h2>Bocinas</h2>
+    <p><center><img class="img" src="/imagenes/variosprod/Vehiculo/Bocinas.jpg" width="175" height="100"/></center></p>
+    <p>Características:</p>
+         <li>4'' 2 vias 350W</li>
+         <li>Tamaño reducido </li>
+         <li>Sonido envolventes</li>
+         <p>Precio: Q205.00</p>
+    <p><a href="#">Comprar!</a></p> 
   </div>
+
+
           <br /><br /> <br /><br /> <br /><br /> <br /><br />
       <!-- SEGUNDA FILA-->
    <!-- <div class="separator"></div>-->
       <div class="intro">
-    <h2><center>HERRAMIENTAS</center></h2>
-   <p><center><img class="img" src="/imagenes/herramientas.png"  width="175" height="175"/></center></p>
-    <p><a href="#">Ver productos</a></p>
+    <h2>Cargador</h2>
+   <p><center><img class="img" src="/imagenes/variosprod/Vehiculo/cargadorcarro.jpg" width="80" height="100"</center></p>
+    <p>Características:</p>
+         <li>Soporta la mayoria de dispositivos</li>
+         <li>Diseño elegante y compacto </li>
+         <li>Fácil instalación y uso.</li>
+         <p>Precio: Q184.00</p>
+    <p><a href="#">Comprar!</a></p> 
+
   </div>
       
   <!-- <div class="separator"></div>-->
   <div class="intro2">
-    <h2><center>TECNOLOGÍA</center></h2>
-    <p><center><img class="img" src="/imagenes/tecnologia.png"  width="175" height="175"/></center></p>
-   <p><a href="#">Ver productos</a></p>
+    <h2>Amplificador </h2>
+    <p><center><img class="img" src="/imagenes/variosprod/Vehiculo/Amplificador.jpg" width="100" height="100"/></center></p>
+    <p>Características:</p>
+         <li>1000W Mosfet 2 Canales</li>
+         <li>Diseño elegante y compacto.</li>
+         <li>Larga vida ùtil</li>
+         <p>Precio: Q833.00</p>
+    <p><a href="#">Comprar!</a></p> 
   </div>
   <!-- <div class="separator"></div>-->
       
   <div class="intro3">
-    <h2><center>ELECTRODOMÉSTICOS</center></h2>
-    <p><center><img class="img" src="/imagenes/electrodom.png"  width="175" height="175"/></center></p>
-   <p><a href="#">Ver productos</a></p>
+    <h2>Plumillas </h2>
+    <p><center><img class="img" src="/imagenes/variosprod/Vehiculo/Plumillas.jpg" width="225" height="100"/></center></p>
+    <p>Características:</p>
+         <li>Resistencia a temperaturas altas.</li>
+         <li>Hule vulcanizado </li>
+         <li>Adaptaciòn completa</li>
+         <p>Precio: Q50.00</p>
+    <p><a href="#">Comprar!</a></p> 
   </div>
       <br /><br /> <br /><br /> <br /><br /> 
        <!-- SEGUNDA FILA-->
               <br /><br /> <br /><br /> <br /><br /> <br /><br />
 
-       <!-- TERCER FILA-->
-      <div class="intro">
-    <h2><center>JUGUETES</center></h2>
-   <p><center><img class="img" src="/imagenes/juguetes.png"  width="175" height="175"/></center></p>
-   <p><a href="#">Ver productos</a></p>
-  </div>
-     <!-- <div class="separator"></div>-->
-      
-  <!-- <div class="separator"></div>-->
-  <div class="intro2">
-    <h2><center>LIBRERÍA</center></h2>
- <p><center><img class="img" src="/imagenes/libreria.png"  width="175" height="175"/></center></p>
-   <p><a href="#">Ver productos</a></p>
-  </div>
-  <!-- <div class="separator"></div>-->
-      
-  <div class="intro3">
-    <h2><center>ROPA Y ACCESORIOS</center></h2>
- <p><center><img class="img" src="/imagenes/ropa.png"  width="175" height="175"/></center></p>
-   <p><a href="#">Ver productos</a></p>
-  </div>
-      <br /><br /> <br /><br /> <br /><br /> 
-       <!-- TERCER FILA-->
+    
       <br /><br /> <br /><br /> <br /><br /> <br /><br /><br /><br /> <br /><br /> <br /><br /> <br /><br />
-       <br /><br /> <br /><br /> <br /><br /> <br /><br /><br /> <br /><br /><br />
-    <p></p>Aquí puede encontrar una <a href="http://www.os-templates.com/" title="Free Website Templates">pirámide nutricional</a> para que siempre este en correcta nutrición.</p>
-    <p>Tambien puede encontrar una tabla de <a href="http://www.os-templates.com/template-terms">consumo de calorías</a> recomendado para mantenerse saludable.</p>
+    <p>Gracias por permitirnos servirle!.</p>
     <ul>
       
     </ul>

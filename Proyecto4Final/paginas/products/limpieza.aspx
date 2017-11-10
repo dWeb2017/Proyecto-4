@@ -1,4 +1,4 @@
-ï»¿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="limpieza.aspx.cs" Inherits="Proyecto4Final.paginas.products.limpieza" %>
+<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="limpieza.aspx.cs" Inherits="Proyecto4Final.paginas.products.limpieza" %>
 
 <!DOCTYPE html>
 
@@ -6,7 +6,7 @@
 <head>
 <title>Tienda online</title>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
-<link rel="stylesheet" href="/css/products.css" type="text/css" />
+<link rel="stylesheet" href="/css/compraprod.css" type="text/css" />
    <!-- <link rel="stylesheet" href="../layout/styles/layout.css" type="text/css" /> -->
 
 </head>
@@ -32,7 +32,7 @@
         <li><a href="/paginas/tiendaPOS.aspx">Productos</a></li>
         <li><a href="/Street.aspx">Carrito de compras</a></li>
         <!--<li><a href="pages/full-width.html">Full Width</a></li>-->
-        <li class="last"><a href="/paginas/clientes.aspx">Area de Clientes!</a></li>
+        <li class="last"><a href="/paginas/clientesAut.aspx">Area de Clientes!</a></li>
         <li><a href="#">Acceso personal</a>
           <ul>
             <li><a href="#">Control</a></li> 
@@ -75,99 +75,99 @@
 <div id="container">
   <div class="wrapper">
 
-      <h1>TIENDA ONLINE</h1>
+      <h1><center>LIMPIEZA</center></h1>
 
      <div class="intro">
-    <h2><center>VEHICULOS</center></h2>
-     <p><center><img class="img" src="/imagenes/vehiculos2.png" width="175" height="175"/></center></p>
-    <p><a href="#">Ver productos</a></p>
+    <h2>Desinfectante</h2>
+     <p><center><img class="img" src="/imagenes/variosprod/Limpieza/desinfec.jpg" width="125" height="100"/></center></p>
+         <p>Características:</p>
+         <li>Aroma perdurable.</li>
+         <li>Ecoambiental.</li>
+         <li>Varios aromas.</li>
+         <p>Precio: Q30.00</p>
+    <p><a href="#">Comprar!</a></p> 
   </div>
      <!-- <div class="separator"></div>-->
       
   <!-- <div class="separator"></div>-->
   <div class="intro2">
-    <h2><center>LIMPIEZA</center></h2>
-    <p><center><img class="img" src="/imagenes/limpieza.png" width="175" height="175"/></center></p>
-      <p><a href="#">Ver productos</a></p>
+    <h2>Escobas</h2>
+     <p><center><img class="img" src="/imagenes/variosprod/Limpieza/Escoba.jpg" width="85" height="100"/></center></p>
+         <p>Características:</p>
+         <li>Material plástico entorchado.</li>
+         <li>Varios tamaños.</li>
+         <li>Para uso de domestico</li>
+         <p>Precio: Q25.00</p>
+    <p><a href="#">Comprar!</a></p> 
   </div>
   <!-- <div class="separator"></div>-->
       
   <div class="intro3">
-    <h2><center>JARDÃN</center></h2>
-    <p><center><img class="img" src="/imagenes/jardin.png"  width="175" height="175"/></center></p>
-      <p><a href="#">Ver productos</a></p>
+    <h2>Toallas</h2>
+     <p><center><img class="img" src="/imagenes/variosprod/Limpieza/Toallas.jpg" width="85" height="100"/></center></p>
+         <p>Características:</p>
+         <li>Hipoalergènica.</li>
+         <li>Varios colores y tamaños.</li>
+         <li>Absorbentes.</li>
+         <p>Precio: Q35.00</p>
+    <p><a href="#">Comprar!</a></p> 
   </div>
           <br /><br /> <br /><br /> <br /><br /> <br /><br />
       <!-- SEGUNDA FILA-->
    <!-- <div class="separator"></div>-->
       <div class="intro">
-    <h2><center>HERRAMIENTAS</center></h2>
-   <p><center><img class="img" src="/imagenes/herramientas.png"  width="175" height="175"/></center></p>
-    <p><a href="#">Ver productos</a></p>
-  </div>
+    <h2>Jabón Liquido </h2>
+     <p><center><img class="img" src="/imagenes/variosprod/Limpieza/jabonliq.jpg" width="85" height="100"/></center></p>
+         <p>Características:</p>
+         <li>Presentación en 35ml.</li>
+         <li>Varios aromas.</li>
+         <li>Cuida la piel.</li>
+         <p>Precio: Q30.00</p>
+    <p><a href="#">Comprar!</a></p>   
+
+      </div>
       
   <!-- <div class="separator"></div>-->
   <div class="intro2">
-    <h2><center>TECNOLOGÃA</center></h2>
-    <p><center><img class="img" src="/imagenes/tecnologia.png"  width="175" height="175"/></center></p>
-   <p><a href="#">Ver productos</a></p>
+    <h2>Trapeador </h2>
+     <p><center><img class="img" src="/imagenes/variosprod/Limpieza/Trapeador.jpg" width="95" height="100"/></center></p>
+         <p>Características:</p>
+         <li>Material de alta calidad.</li>
+         <li>Para uso domestico e industrial.</li>
+         <li>Reciclable.</li>
+         <p>Precio: Q30.00</p>
+    <p><a href="#">Comprar!</a></p>   
+
   </div>
   <!-- <div class="separator"></div>-->
       
   <div class="intro3">
-    <h2><center>ELECTRODOMÃ‰STICOS</center></h2>
-    <p><center><img class="img" src="/imagenes/electrodom.png"  width="175" height="175"/></center></p>
-   <p><a href="#">Ver productos</a></p>
+    <h2>Limpiador </h2>
+     <p><center><img class="img" src="/imagenes/variosprod/Limpieza/Limpiador.jpg" width="175" height="100"/></center></p>
+         <p>Características:</p>
+         <li>Fácil absorción.</li>
+         <li>De alta calidad y resistencia.</li>
+         <li>Resistente a varios líquidos.</li>
+         <p>Precio: Q10.00</p>
+    <p><a href="#">Comprar!</a></p>   
   </div>
       <br /><br /> <br /><br /> <br /><br /> 
        <!-- SEGUNDA FILA-->
-              <br /><br /> <br /><br /> <br /><br /> <br /><br />
-
-       <!-- TERCER FILA-->
-      <div class="intro">
-    <h2><center>JUGUETES</center></h2>
-   <p><center><img class="img" src="/imagenes/juguetes.png"  width="175" height="175"/></center></p>
-   <p><a href="#">Ver productos</a></p>
-  </div>
-     <!-- <div class="separator"></div>-->
       
-  <!-- <div class="separator"></div>-->
-  <div class="intro2">
-    <h2><center>LIBRERÃA</center></h2>
- <p><center><img class="img" src="/imagenes/libreria.png"  width="175" height="175"/></center></p>
-   <p><a href="#">Ver productos</a></p>
-  </div>
-  <!-- <div class="separator"></div>-->
-      
-  <div class="intro3">
-    <h2><center>ROPA Y ACCESORIOS</center></h2>
- <p><center><img class="img" src="/imagenes/ropa.png"  width="175" height="175"/></center></p>
-   <p><a href="#">Ver productos</a></p>
-  </div>
-      <br /><br /> <br /><br /> <br /><br /> 
-       <!-- TERCER FILA-->
       <br /><br /> <br /><br /> <br /><br /> <br /><br /><br /><br /> <br /><br /> <br /><br /> <br /><br />
        <br /><br /> <br /><br /> <br /><br /> <br /><br /><br /> <br /><br /><br />
-    <p>AquÃ­ puede encontrar una <a href="http://www.os-templates.com/" title="Free Website Templates">pirÃ¡mide nutricional</a> para que siempre este en correcta nutriciÃ³n.</p>
-    <p>Tambien puede encontrar una tabla de <a href="http://www.os-templates.com/template-terms">consumo de calorÃ­as</a> recomendado para mantenerse saludable.</p>
+    <p>Gracias por permitirnos servirle!.</p>
     <ul>
-      <li>Nuestros productos son de alta calidad y frescura.</li>
-      <li>Estamos en constante verificaciÃ³n de los empaques.</li>
-      <li>En el area de atenciÃ³n al cliente estamos dispuestos a ayudarle.</li>
-      <li>Mantenemos un control en la fecha de vencimiento de los productos.</li>
-      <li>Colaboramos con el medio ambiente.</li>
+      
     </ul>
-    <p>Tips para una vida mejor!.</p>
+    
     <ol>
-      <li>No gaste mas de lo necesario, en los tiburoncitos tenemos lÃ­neas de credito para ayudarle.</li>
-      <li>Cuide el agua, en los tiburoncitos tenemos tratamiento del agua que usamos.</li>
-      <li>Recicle la basura, puede encontrar depÃ³sitos de basura especiales en nuestras tiendas</li>
-      <li>Utilice efectivamente la energÃ­a elÃ©ctrica, contamos con sensores de ahorro en nuestras tiendas.</li>
-      <li>Sea amable con los demÃ¡s, en los tiburoncitos estamos dispuestos a ayudarle siempre.</li>
+      
     </ol>
     <br />
               </div>
 </div>
+
 
 <!-- ####################################################################################################### -->
     <div id="footer">
@@ -212,7 +212,7 @@
                     <li><a href="#">Twitter</a></li>
                     <li><a href="#">Instagram</a></li>
                     <li><a href="#">Whats App</a></li>
-                    <li class="last"><a href="#">App para mÃ³vil</a></li>
+                    <li class="last"><a href="#">App para móvil</a></li>
                 </ul>
             </div>
             <br class="clear" />
@@ -221,7 +221,7 @@
 <!-- ####################################################################################################### -->
 <div id="copyright">
     <div class="wrapper">
-        <p class="fl_left">VersiÃ³n Beta  - 14 de Octubre, 2017 - <a href="#">Desarrollo Web</a></p>
+        <p class="fl_left">Versión Beta  - 14 de Octubre, 2017 - <a href="#">Desarrollo Web</a></p>
         <p class="fl_right">&copy; Proyecto de clase: <a target="_blank" href="/paginas/CreditosClase.html" title="Desarrollo Web 2017">Ver creditos!</a></p>
         <br class="clear" />
     </div>

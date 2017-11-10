@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:wsp="http://www.w3.org/ns/ws-policy" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:tns="http://paquete/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsp1_2="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" name="validaTarjeta" targetNamespace="http://paquete/" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <xsd:schema>
+      <xsd:import schemaLocation="http://52.177.194.230:8080/tcws/validaTarjeta?xsd=1" namespace="http://paquete/" />
+    </xsd:schema>
+  </types>
+  <message name="validaTC">
+    <part name="parameters" element="tns:validaTC" />
+  </message>
+  <message name="validaTCResponse">
+    <part name="parameters" element="tns:validaTCResponse" />
+  </message>
+  <message name="conexion">
+    <part name="parameters" element="tns:conexion" />
+  </message>
+  <message name="conexionResponse">
+    <part name="parameters" element="tns:conexionResponse" />
+  </message>
+  <portType name="validaTarjeta">
+    <operation name="validaTC">
+      <input wsam:Action="http://paquete/validaTarjeta/validaTCRequest" message="tns:validaTC" />
+      <output wsam:Action="http://paquete/validaTarjeta/validaTCResponse" message="tns:validaTCResponse" />
+    </operation>
+    <operation name="conexion">
+      <input wsam:Action="http://paquete/validaTarjeta/conexionRequest" message="tns:conexion" />
+      <output wsam:Action="http://paquete/validaTarjeta/conexionResponse" message="tns:conexionResponse" />
+    </operation>
+  </portType>
+  <binding name="validaTarjetaPortBinding" type="tns:validaTarjeta">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <operation name="validaTC">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="conexion">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+  </binding>
+  <service name="validaTarjeta">
+    <port name="validaTarjetaPort" binding="tns:validaTarjetaPortBinding">
+      <soap:address location="http://52.177.194.230:8080/tcws/validaTarjeta" />
+    </port>
+  </service>
+</definitions>
